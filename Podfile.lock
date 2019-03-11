@@ -1,0 +1,57 @@
+PODS:
+  - Bolts/Tasks (1.9.0)
+  - DateTools (2.0.0)
+  - JVFloatLabeledTextField (1.2.1)
+  - LocationPickerViewController (3.4)
+  - Parse (1.17.2):
+    - Parse/Core (= 1.17.2)
+  - Parse/Core (1.17.2):
+    - Bolts/Tasks (~> 1.9)
+  - Parse/UI (1.17.2):
+    - Parse/Core
+  - PryntTrimmerView (3.0.0)
+  - SteviaLayout (4.4.3)
+  - SVProgressHUD (2.2.5)
+  - WYPopoverController (0.3.9)
+  - YPImagePicker (3.5.3):
+    - PryntTrimmerView (~> 3.0.0)
+    - SteviaLayout (~> 4.4.1)
+
+DEPENDENCIES:
+  - DateTools
+  - JVFloatLabeledTextField
+  - LocationPickerViewController
+  - Parse
+  - Parse/UI
+  - SVProgressHUD
+  - WYPopoverController
+  - YPImagePicker
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Bolts
+    - DateTools
+    - JVFloatLabeledTextField
+    - LocationPickerViewController
+    - Parse
+    - PryntTrimmerView
+    - SteviaLayout
+    - SVProgressHUD
+    - WYPopoverController
+    - YPImagePicker
+
+SPEC CHECKSUMS:
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  DateTools: 933ac9c490f21f92127cf690ccd8c397e0126caf
+  JVFloatLabeledTextField: cfc44e3c4d493b2ed92ede8035e8e89c2912ba64
+  LocationPickerViewController: 4f33d63587bca682267a09779de2b2e09cf5b8e2
+  Parse: 3b31a3dd1777b07ee7f0caee32fafbff544483a5
+  PryntTrimmerView: 53ac64053c7ce63cb3e27f54090f52da0734891d
+  SteviaLayout: ae5ee66101e03607a93c9b3773b84ab7ba7b3d17
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  WYPopoverController: a9db25ac2841a686acdc0f3a99bdb21545db32f4
+  YPImagePicker: 5dd3814b47b1208e9c8cc8f6ef77fe90db3723b6
+
+PODFILE CHECKSUM: b2108ead83f82dbaa11c39e5ffaf19e143d27cc9
+
+COCOAPODS: 1.5.2

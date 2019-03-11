@@ -1,0 +1,830 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23C29A3BE089AAEEBD97D3D1 /* Pods_TopRental.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D536C382272A8B05EB663A6 /* Pods_TopRental.framework */; };
+		6948805221F17702006E635C /* RealtorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6948805121F17702006E635C /* RealtorPickerViewController.swift */; };
+		6979706721EA44AF004EA0D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6979706621EA44AF004EA0D5 /* AppDelegate.swift */; };
+		6979706B21EA44AF004EA0D5 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6979706A21EA44AF004EA0D5 /* SettingsViewController.swift */; };
+		6979706E21EA44AF004EA0D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6979706C21EA44AF004EA0D5 /* Main.storyboard */; };
+		6979707021EA44B1004EA0D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6979706F21EA44B1004EA0D5 /* Assets.xcassets */; };
+		6979707321EA44B1004EA0D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6979707121EA44B1004EA0D5 /* LaunchScreen.storyboard */; };
+		6979707E21EA44B2004EA0D5 /* TopRentalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6979707D21EA44B2004EA0D5 /* TopRentalTests.swift */; };
+		6979708921EA44B2004EA0D5 /* TopRentalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6979708821EA44B2004EA0D5 /* TopRentalUITests.swift */; };
+		6979709721EA5543004EA0D5 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6979709621EA5543004EA0D5 /* MainTabBarController.swift */; };
+		697CCDE621F36D65006E67CC /* BrowseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697CCDE521F36D65006E67CC /* BrowseViewController.swift */; };
+		697CCDE921F373C7006E67CC /* RentalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697CCDE821F373C7006E67CC /* RentalCell.swift */; };
+		697CCDEB21F3EA4F006E67CC /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697CCDEA21F3EA4F006E67CC /* FilterViewController.swift */; };
+		697CCDED21F3F086006E67CC /* NumberOfRoomsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697CCDEC21F3F086006E67CC /* NumberOfRoomsCell.swift */; };
+		6991CF3521EA5BD2002152F8 /* AppNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6991CF3421EA5BD2002152F8 /* AppNotification.swift */; };
+		69C0496821EAA7BA009B3A6F /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C0496721EAA7BA009B3A6F /* UsersViewController.swift */; };
+		69C0496A21EAA96C009B3A6F /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C0496921EAA96C009B3A6F /* UserCell.swift */; };
+		69C0496E21EAC336009B3A6F /* TRLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C0496D21EAC336009B3A6F /* TRLoginViewController.swift */; };
+		69C0497021EBA539009B3A6F /* UserDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C0496F21EBA539009B3A6F /* UserDetailsViewController.swift */; };
+		69C0497221EBA6B6009B3A6F /* PFUser+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C0497121EBA6B6009B3A6F /* PFUser+Extension.swift */; };
+		69C0497521EC30F4009B3A6F /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C0497421EC30F4009B3A6F /* AuthenticationServices.framework */; };
+		69C0497921EC35FC009B3A6F /* Rental.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C0497821EC35FC009B3A6F /* Rental.swift */; };
+		69C0497B21EC396D009B3A6F /* RentalListAdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C0497A21EC396D009B3A6F /* RentalListAdminViewController.swift */; };
+		69C0497D21EC3EAE009B3A6F /* RentalDetailsAdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C0497C21EC3EAE009B3A6F /* RentalDetailsAdminViewController.swift */; };
+		69C0497F21EC41EA009B3A6F /* RentalAdminCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C0497E21EC41EA009B3A6F /* RentalAdminCell.swift */; };
+		BD4E2CC99A80D984D26010CC /* Pods_TopRentalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFE5FFA83CA8CBA3C03EC9A /* Pods_TopRentalTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6979707A21EA44B2004EA0D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6979705B21EA44AF004EA0D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6979706221EA44AF004EA0D5;
+			remoteInfo = TopRental;
+		};
+		6979708521EA44B2004EA0D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6979705B21EA44AF004EA0D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6979706221EA44AF004EA0D5;
+			remoteInfo = TopRental;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		270548D135AAA4E0A4AED514 /* Pods-TopRentalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopRentalTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TopRentalTests/Pods-TopRentalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4EFE5FFA83CA8CBA3C03EC9A /* Pods_TopRentalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TopRentalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		646530C2A47D6854F72A09D5 /* Pods-TopRental.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopRental.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TopRental/Pods-TopRental.debug.xcconfig"; sourceTree = "<group>"; };
+		6948805121F17702006E635C /* RealtorPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealtorPickerViewController.swift; sourceTree = "<group>"; };
+		6979706321EA44AF004EA0D5 /* TopRental.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopRental.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6979706621EA44AF004EA0D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6979706A21EA44AF004EA0D5 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		6979706D21EA44AF004EA0D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6979706F21EA44B1004EA0D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6979707221EA44B1004EA0D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6979707421EA44B1004EA0D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6979707921EA44B2004EA0D5 /* TopRentalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopRentalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6979707D21EA44B2004EA0D5 /* TopRentalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRentalTests.swift; sourceTree = "<group>"; };
+		6979707F21EA44B2004EA0D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6979708421EA44B2004EA0D5 /* TopRentalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopRentalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6979708821EA44B2004EA0D5 /* TopRentalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRentalUITests.swift; sourceTree = "<group>"; };
+		6979708A21EA44B2004EA0D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6979709621EA5543004EA0D5 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		697CCDE521F36D65006E67CC /* BrowseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseViewController.swift; sourceTree = "<group>"; };
+		697CCDE821F373C7006E67CC /* RentalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalCell.swift; sourceTree = "<group>"; };
+		697CCDEA21F3EA4F006E67CC /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		697CCDEC21F3F086006E67CC /* NumberOfRoomsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfRoomsCell.swift; sourceTree = "<group>"; };
+		6991CF3421EA5BD2002152F8 /* AppNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNotification.swift; sourceTree = "<group>"; };
+		69C0496721EAA7BA009B3A6F /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		69C0496921EAA96C009B3A6F /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		69C0496D21EAC336009B3A6F /* TRLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRLoginViewController.swift; sourceTree = "<group>"; };
+		69C0496F21EBA539009B3A6F /* UserDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsViewController.swift; sourceTree = "<group>"; };
+		69C0497121EBA6B6009B3A6F /* PFUser+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PFUser+Extension.swift"; sourceTree = "<group>"; };
+		69C0497321EC2FF3009B3A6F /* TopRental.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TopRental.entitlements; sourceTree = "<group>"; };
+		69C0497421EC30F4009B3A6F /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
+		69C0497821EC35FC009B3A6F /* Rental.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rental.swift; sourceTree = "<group>"; };
+		69C0497A21EC396D009B3A6F /* RentalListAdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalListAdminViewController.swift; sourceTree = "<group>"; };
+		69C0497C21EC3EAE009B3A6F /* RentalDetailsAdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalDetailsAdminViewController.swift; sourceTree = "<group>"; };
+		69C0497E21EC41EA009B3A6F /* RentalAdminCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalAdminCell.swift; sourceTree = "<group>"; };
+		7D536C382272A8B05EB663A6 /* Pods_TopRental.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TopRental.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		906560A44B9D0B6DC6E902A1 /* Pods-TopRentalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopRentalTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TopRentalTests/Pods-TopRentalTests.release.xcconfig"; sourceTree = "<group>"; };
+		CE9D1DF565A23A576F01989F /* Pods-TopRental.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopRental.release.xcconfig"; path = "Pods/Target Support Files/Pods-TopRental/Pods-TopRental.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6979706021EA44AF004EA0D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69C0497521EC30F4009B3A6F /* AuthenticationServices.framework in Frameworks */,
+				23C29A3BE089AAEEBD97D3D1 /* Pods_TopRental.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6979707621EA44B2004EA0D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4E2CC99A80D984D26010CC /* Pods_TopRentalTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6979708121EA44B2004EA0D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6979705A21EA44AF004EA0D5 = {
+			isa = PBXGroup;
+			children = (
+				6979706521EA44AF004EA0D5 /* TopRental */,
+				6979707C21EA44B2004EA0D5 /* TopRentalTests */,
+				6979708721EA44B2004EA0D5 /* TopRentalUITests */,
+				6979706421EA44AF004EA0D5 /* Products */,
+				ED946613A0F0FA20E8287AEE /* Pods */,
+				B27CFA0AED6F9FD4432E4054 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6979706421EA44AF004EA0D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6979706321EA44AF004EA0D5 /* TopRental.app */,
+				6979707921EA44B2004EA0D5 /* TopRentalTests.xctest */,
+				6979708421EA44B2004EA0D5 /* TopRentalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6979706521EA44AF004EA0D5 /* TopRental */ = {
+			isa = PBXGroup;
+			children = (
+				6979706621EA44AF004EA0D5 /* AppDelegate.swift */,
+				6991CF3421EA5BD2002152F8 /* AppNotification.swift */,
+				69C0497721EC34F2009B3A6F /* Model */,
+				69C0497621EC34E8009B3A6F /* Views */,
+				69C0497321EC2FF3009B3A6F /* TopRental.entitlements */,
+				6979706C21EA44AF004EA0D5 /* Main.storyboard */,
+				6979706F21EA44B1004EA0D5 /* Assets.xcassets */,
+				6979707121EA44B1004EA0D5 /* LaunchScreen.storyboard */,
+				6979707421EA44B1004EA0D5 /* Info.plist */,
+			);
+			path = TopRental;
+			sourceTree = "<group>";
+		};
+		6979707C21EA44B2004EA0D5 /* TopRentalTests */ = {
+			isa = PBXGroup;
+			children = (
+				6979707D21EA44B2004EA0D5 /* TopRentalTests.swift */,
+				6979707F21EA44B2004EA0D5 /* Info.plist */,
+			);
+			path = TopRentalTests;
+			sourceTree = "<group>";
+		};
+		6979708721EA44B2004EA0D5 /* TopRentalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6979708821EA44B2004EA0D5 /* TopRentalUITests.swift */,
+				6979708A21EA44B2004EA0D5 /* Info.plist */,
+			);
+			path = TopRentalUITests;
+			sourceTree = "<group>";
+		};
+		697CCDE721F3739E006E67CC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				69C0496921EAA96C009B3A6F /* UserCell.swift */,
+				69C0497E21EC41EA009B3A6F /* RentalAdminCell.swift */,
+				697CCDE821F373C7006E67CC /* RentalCell.swift */,
+				697CCDEC21F3F086006E67CC /* NumberOfRoomsCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		69C0497621EC34E8009B3A6F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				697CCDE721F3739E006E67CC /* Cells */,
+				6979709621EA5543004EA0D5 /* MainTabBarController.swift */,
+				69C0496D21EAC336009B3A6F /* TRLoginViewController.swift */,
+				6979706A21EA44AF004EA0D5 /* SettingsViewController.swift */,
+				69C0496721EAA7BA009B3A6F /* UsersViewController.swift */,
+				69C0496F21EBA539009B3A6F /* UserDetailsViewController.swift */,
+				69C0497A21EC396D009B3A6F /* RentalListAdminViewController.swift */,
+				69C0497C21EC3EAE009B3A6F /* RentalDetailsAdminViewController.swift */,
+				6948805121F17702006E635C /* RealtorPickerViewController.swift */,
+				697CCDE521F36D65006E67CC /* BrowseViewController.swift */,
+				697CCDEA21F3EA4F006E67CC /* FilterViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		69C0497721EC34F2009B3A6F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				69C0497121EBA6B6009B3A6F /* PFUser+Extension.swift */,
+				69C0497821EC35FC009B3A6F /* Rental.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B27CFA0AED6F9FD4432E4054 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69C0497421EC30F4009B3A6F /* AuthenticationServices.framework */,
+				7D536C382272A8B05EB663A6 /* Pods_TopRental.framework */,
+				4EFE5FFA83CA8CBA3C03EC9A /* Pods_TopRentalTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED946613A0F0FA20E8287AEE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				646530C2A47D6854F72A09D5 /* Pods-TopRental.debug.xcconfig */,
+				CE9D1DF565A23A576F01989F /* Pods-TopRental.release.xcconfig */,
+				270548D135AAA4E0A4AED514 /* Pods-TopRentalTests.debug.xcconfig */,
+				906560A44B9D0B6DC6E902A1 /* Pods-TopRentalTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6979706221EA44AF004EA0D5 /* TopRental */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6979708D21EA44B2004EA0D5 /* Build configuration list for PBXNativeTarget "TopRental" */;
+			buildPhases = (
+				BCBEFB6112593785FCB0938F /* [CP] Check Pods Manifest.lock */,
+				6979705F21EA44AF004EA0D5 /* Sources */,
+				6979706021EA44AF004EA0D5 /* Frameworks */,
+				6979706121EA44AF004EA0D5 /* Resources */,
+				E702B6BCE9A7F104DEBE3DBA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TopRental;
+			productName = TopRental;
+			productReference = 6979706321EA44AF004EA0D5 /* TopRental.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6979707821EA44B2004EA0D5 /* TopRentalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6979709021EA44B2004EA0D5 /* Build configuration list for PBXNativeTarget "TopRentalTests" */;
+			buildPhases = (
+				64C6DC55312879FBF83DA653 /* [CP] Check Pods Manifest.lock */,
+				6979707521EA44B2004EA0D5 /* Sources */,
+				6979707621EA44B2004EA0D5 /* Frameworks */,
+				6979707721EA44B2004EA0D5 /* Resources */,
+				8B4C216B2612747508BB3453 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6979707B21EA44B2004EA0D5 /* PBXTargetDependency */,
+			);
+			name = TopRentalTests;
+			productName = TopRentalTests;
+			productReference = 6979707921EA44B2004EA0D5 /* TopRentalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6979708321EA44B2004EA0D5 /* TopRentalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6979709321EA44B2004EA0D5 /* Build configuration list for PBXNativeTarget "TopRentalUITests" */;
+			buildPhases = (
+				6979708021EA44B2004EA0D5 /* Sources */,
+				6979708121EA44B2004EA0D5 /* Frameworks */,
+				6979708221EA44B2004EA0D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6979708621EA44B2004EA0D5 /* PBXTargetDependency */,
+			);
+			name = TopRentalUITests;
+			productName = TopRentalUITests;
+			productReference = 6979708421EA44B2004EA0D5 /* TopRentalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6979705B21EA44AF004EA0D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = mazoic;
+				TargetAttributes = {
+					6979706221EA44AF004EA0D5 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.AutoFillCredentialProvider = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					6979707821EA44B2004EA0D5 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 6979706221EA44AF004EA0D5;
+					};
+					6979708321EA44B2004EA0D5 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 6979706221EA44AF004EA0D5;
+					};
+				};
+			};
+			buildConfigurationList = 6979705E21EA44AF004EA0D5 /* Build configuration list for PBXProject "TopRental" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6979705A21EA44AF004EA0D5;
+			productRefGroup = 6979706421EA44AF004EA0D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6979706221EA44AF004EA0D5 /* TopRental */,
+				6979707821EA44B2004EA0D5 /* TopRentalTests */,
+				6979708321EA44B2004EA0D5 /* TopRentalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6979706121EA44AF004EA0D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6979707321EA44B1004EA0D5 /* LaunchScreen.storyboard in Resources */,
+				6979707021EA44B1004EA0D5 /* Assets.xcassets in Resources */,
+				6979706E21EA44AF004EA0D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6979707721EA44B2004EA0D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6979708221EA44B2004EA0D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		64C6DC55312879FBF83DA653 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TopRentalTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B4C216B2612747508BB3453 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TopRentalTests/Pods-TopRentalTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/DateTools/DateTools.framework",
+				"${BUILT_PRODUCTS_DIR}/JVFloatLabeledTextField/JVFloatLabeledTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/LocationPickerViewController/LocationPickerViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+				"${BUILT_PRODUCTS_DIR}/PryntTrimmerView/PryntTrimmerView.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SteviaLayout/Stevia.framework",
+				"${BUILT_PRODUCTS_DIR}/WYPopoverController/WYPopoverController.framework",
+				"${BUILT_PRODUCTS_DIR}/YPImagePicker/YPImagePicker.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DateTools.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JVFloatLabeledTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LocationPickerViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PryntTrimmerView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stevia.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WYPopoverController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YPImagePicker.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TopRentalTests/Pods-TopRentalTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCBEFB6112593785FCB0938F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TopRental-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E702B6BCE9A7F104DEBE3DBA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TopRental/Pods-TopRental-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/DateTools/DateTools.framework",
+				"${BUILT_PRODUCTS_DIR}/JVFloatLabeledTextField/JVFloatLabeledTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/LocationPickerViewController/LocationPickerViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+				"${BUILT_PRODUCTS_DIR}/PryntTrimmerView/PryntTrimmerView.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SteviaLayout/Stevia.framework",
+				"${BUILT_PRODUCTS_DIR}/WYPopoverController/WYPopoverController.framework",
+				"${BUILT_PRODUCTS_DIR}/YPImagePicker/YPImagePicker.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DateTools.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JVFloatLabeledTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LocationPickerViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PryntTrimmerView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stevia.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WYPopoverController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YPImagePicker.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TopRental/Pods-TopRental-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6979705F21EA44AF004EA0D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69C0497221EBA6B6009B3A6F /* PFUser+Extension.swift in Sources */,
+				697CCDE921F373C7006E67CC /* RentalCell.swift in Sources */,
+				6979706B21EA44AF004EA0D5 /* SettingsViewController.swift in Sources */,
+				697CCDEB21F3EA4F006E67CC /* FilterViewController.swift in Sources */,
+				69C0496821EAA7BA009B3A6F /* UsersViewController.swift in Sources */,
+				69C0497921EC35FC009B3A6F /* Rental.swift in Sources */,
+				69C0497B21EC396D009B3A6F /* RentalListAdminViewController.swift in Sources */,
+				69C0497F21EC41EA009B3A6F /* RentalAdminCell.swift in Sources */,
+				697CCDE621F36D65006E67CC /* BrowseViewController.swift in Sources */,
+				6979706721EA44AF004EA0D5 /* AppDelegate.swift in Sources */,
+				69C0497D21EC3EAE009B3A6F /* RentalDetailsAdminViewController.swift in Sources */,
+				6991CF3521EA5BD2002152F8 /* AppNotification.swift in Sources */,
+				69C0496E21EAC336009B3A6F /* TRLoginViewController.swift in Sources */,
+				6979709721EA5543004EA0D5 /* MainTabBarController.swift in Sources */,
+				69C0496A21EAA96C009B3A6F /* UserCell.swift in Sources */,
+				6948805221F17702006E635C /* RealtorPickerViewController.swift in Sources */,
+				697CCDED21F3F086006E67CC /* NumberOfRoomsCell.swift in Sources */,
+				69C0497021EBA539009B3A6F /* UserDetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6979707521EA44B2004EA0D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6979707E21EA44B2004EA0D5 /* TopRentalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6979708021EA44B2004EA0D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6979708921EA44B2004EA0D5 /* TopRentalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6979707B21EA44B2004EA0D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6979706221EA44AF004EA0D5 /* TopRental */;
+			targetProxy = 6979707A21EA44B2004EA0D5 /* PBXContainerItemProxy */;
+		};
+		6979708621EA44B2004EA0D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6979706221EA44AF004EA0D5 /* TopRental */;
+			targetProxy = 6979708521EA44B2004EA0D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6979706C21EA44AF004EA0D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6979706D21EA44AF004EA0D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6979707121EA44B1004EA0D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6979707221EA44B1004EA0D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6979708B21EA44B2004EA0D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6979708C21EA44B2004EA0D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6979708E21EA44B2004EA0D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 646530C2A47D6854F72A09D5 /* Pods-TopRental.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TopRental/TopRental.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56688YMHPC;
+				INFOPLIST_FILE = TopRental/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mazoic.TopRental;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6979708F21EA44B2004EA0D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE9D1DF565A23A576F01989F /* Pods-TopRental.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TopRental/TopRental.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56688YMHPC;
+				INFOPLIST_FILE = TopRental/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mazoic.TopRental;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6979709121EA44B2004EA0D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 270548D135AAA4E0A4AED514 /* Pods-TopRentalTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56688YMHPC;
+				INFOPLIST_FILE = TopRentalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mazoic.TopRentalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TopRental.app/TopRental";
+			};
+			name = Debug;
+		};
+		6979709221EA44B2004EA0D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 906560A44B9D0B6DC6E902A1 /* Pods-TopRentalTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56688YMHPC;
+				INFOPLIST_FILE = TopRentalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mazoic.TopRentalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TopRental.app/TopRental";
+			};
+			name = Release;
+		};
+		6979709421EA44B2004EA0D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56688YMHPC;
+				INFOPLIST_FILE = TopRentalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mazoic.TopRentalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TopRental;
+			};
+			name = Debug;
+		};
+		6979709521EA44B2004EA0D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56688YMHPC;
+				INFOPLIST_FILE = TopRentalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mazoic.TopRentalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TopRental;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6979705E21EA44AF004EA0D5 /* Build configuration list for PBXProject "TopRental" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6979708B21EA44B2004EA0D5 /* Debug */,
+				6979708C21EA44B2004EA0D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6979708D21EA44B2004EA0D5 /* Build configuration list for PBXNativeTarget "TopRental" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6979708E21EA44B2004EA0D5 /* Debug */,
+				6979708F21EA44B2004EA0D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6979709021EA44B2004EA0D5 /* Build configuration list for PBXNativeTarget "TopRentalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6979709121EA44B2004EA0D5 /* Debug */,
+				6979709221EA44B2004EA0D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6979709321EA44B2004EA0D5 /* Build configuration list for PBXNativeTarget "TopRentalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6979709421EA44B2004EA0D5 /* Debug */,
+				6979709521EA44B2004EA0D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6979705B21EA44AF004EA0D5 /* Project object */;
+}
